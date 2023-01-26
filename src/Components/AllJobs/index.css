@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.all-jobs-main-container {
+  padding-bottom: 20px;
+  background-color: #000000;
+}
+.all-jobs-container-body {
+  display: flex;
+  color: #ffff;
+  margin: 10px 30px;
+}
+.searches-and-jobs {
+  width: 70%;
+  margin: 0px 10px;
+}
+.profile-data-and-type {
+  width: 25%;
+}
+.side-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 10px 0px;
+  margin-left: 10px;
+}
+li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 12px;
+  font-family: Roboto;
+}
+ul {
+  margin-bottom: 10px;
+}
+.label {
+  margin: 0px 10px;
+}
+/* search-box */
+.searches-and-jobs {
+}
+.search-box {
+  display: flex;
+  width: 50%;
+  margin: 0px 20px;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+}
+.search-input {
+  color: #ffff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin: 0px;
+  border-radius: 0px;
+  outline: none;
+}
+.search-button {
+  padding: 0px 20px;
+  background-color: #272727;
+  color: #ffff;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: #ffff;
+}
+.user-profile-success {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/profile-bg.png);
+  padding: 15px;
+  margin-bottom: 10px;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+  background-position: unset;
+}
+.profile-name {
+  color: #6366f1;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.profile-description {
+  color: #000000;
+  font-family: roboto;
+  font-size: 14px;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+.user-profile-failure {
+  padding: 15px;
+  width: 100%;
+  border: 2px solid #ffff;
+  border-radius: 15px;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.loader-container {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+/* jobs-item */
+
+.jobs-item {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.jobs-failure-page {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-paragraph {
+  margin-top: 20px;
+}
+.no-jobs {
+  margin-top: 20px;
+}

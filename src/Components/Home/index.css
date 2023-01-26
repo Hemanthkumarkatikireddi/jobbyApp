@@ -1,0 +1,22 @@
+.home-container {
+  height: 90vh;
+  display: flex;
+  background: url(https://assets.ccbp.in/frontend/react-js/home-lg-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  font-size: 25px;
+  color: #ffff;
+  font-family: Roboto;
+}
+.sub-box {
+  width: 80%;
+}
+.description {
+  font-family: roboto;
+  font-size: 12px;
+  margin: 10px 0px;
+}
+.btn {
+  margin: 10px 0px;
+}

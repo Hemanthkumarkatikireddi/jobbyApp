@@ -1,0 +1,28 @@
+.header-container {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  background-color: #272727;
+  align-items: center;
+}
+.header-link {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+.logo {
+  height: 50px;
+}
+.btn {
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4f46e5;
+  color: #ffff;
+  font-weight: 500;
+}

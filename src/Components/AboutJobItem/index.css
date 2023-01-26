@@ -1,0 +1,77 @@
+.about-job_item-container {
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+.about-item-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 15px;
+  color: #ffff;
+  font-family: Roboto;
+  margin: 25px;
+  background-color: #272727;
+}
+.skills-container {
+  font-size: 16px;
+  font-family: Roboto;
+  margin: 20px 0px;
+}
+.description-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visit-anchor {
+  font-size: large;
+  text-decoration: none;
+  color: rgba(227, 59, 59, 0.943);
+}
+.skills-body {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.each-skill-item-container {
+  margin: 20px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: ;
+}
+.skill-name {
+  margin: 0px 20px;
+}
+.life-at-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.life-at-company-intro {
+  width: 40%;
+}
+.description {
+  margin: 20px 0px;
+  font-size: 15px;
+}
+.description-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 100%;
+  width: 300px;
+}
+/* similar-jobs */
+
+@media screen and (min-width: 800px) {
+  .similar-jobs {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
